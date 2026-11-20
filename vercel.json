@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/slides",
+      "destination": "/static/slides.html"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/step1/(.*)",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/step2/(.*)",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/step3/(.*)",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/chat",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/import-gsheet",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/upload-file",
+      "destination": "/api/index.py"
+    },
+    {
+      "source": "/export-excel(.*)",
+      "destination": "/api/index.py"
+    }
+  ]
+}
